@@ -1,0 +1,51 @@
+.Header_Outer_Wrapper {
+    position: sticky;
+    top: 0;
+    /* When set to sticky, the element is positioned based on the user's scroll position,
+     sticks to that postion when specifief postio is reached like top , back  This is commonly 
+     used for elements like headers or navigation bars that you want to remain visible as the user 
+     scrolls down the page.  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 20, 20, 0.431);
+    height: 10vh;
+    /* v h = view height  it is importat becuase it applies or depends on browsers and it is more precise*/
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 0.5;
+    padding-top: 30px;
+  }
+   .nav__black {
+    background-color: black;
+  }
+  .Header_inner_wrapper {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Header_Left ul {
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+       color:gray;
+    
+  
+  }
+  
+  .Header_Left ul li img {
+    padding-bottom: 20px;
+  }
+  .Header_Right ul {
+    width: 150%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+     color:gray;
+    
+  }
+  
